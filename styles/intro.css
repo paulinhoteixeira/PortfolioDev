@@ -1,0 +1,23 @@
+#intro{
+    background: url(../assets/Background_Intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    
+    padding-block: 12rem 6rem;
+    
+    header{
+        text-align: center;
+        
+    }
+
+    #tags{
+        display: flex;
+    }
+
+    img:nth-child(3){
+        width: 3.2rem;
+    }
+}
