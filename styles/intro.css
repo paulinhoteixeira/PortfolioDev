@@ -39,6 +39,26 @@
 
   #tags {
     display: flex;
+    gap: 1.6rem;
+    margin-bottom: 8rem;
+  }
+
+  .tag{
+    background-color: var(--gray-300);
+    border-radius: 999px;
+
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: .8rem;
+
+    color: var(--gray-500);
+
+    img{
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+
   }
 
   img:nth-child(3) {
