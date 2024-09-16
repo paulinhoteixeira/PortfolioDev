@@ -16,4 +16,5 @@
 
 .subtitle{
     font: var(--subtitle);
+    color: var(--red);
 }
