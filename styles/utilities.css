@@ -1,34 +1,54 @@
-.text-md{
+.bg-image-intro {
+    background: url(../assets/Background_Intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image-contacts {
+    background: url(../assets/Background_Contacts.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-md {
     font: var(--text-md);
 }
 
-.text-sm{
+.text-sm {
     font: var(--text-sm);
 }
 
-.title-md{
+.title-md {
     font: var(--title-md);
 }
 
-.title-sm{
+.title-sm {
     font: var(--title-sm);
 }
 
-.subtitle{
+.subtitle {
     font: var(--subtitle);
-    color: var(--red);
 }
 
+.red{
+    color: var(--red);
 
-.purple{
+}
+
+.purple {
     color: var(--purple);
 }
 
-.yellow{
+.yellow {
     color: var(--yellow);
 }
 
-.green{
+.green {
     color: var(--green);
+
+}
+
+.blue {
+    color: var(--blue);
 
 }
