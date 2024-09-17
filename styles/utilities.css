@@ -18,3 +18,17 @@
     font: var(--subtitle);
     color: var(--red);
 }
+
+
+.purple{
+    color: var(--purple);
+}
+
+.yellow{
+    color: var(--yellow);
+}
+
+.green{
+    color: var(--green);
+
+}
