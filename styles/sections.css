@@ -174,3 +174,62 @@
   }
 }
 
+#contacts{
+  display: flex;
+  padding: 12.8rem 12rem 20rem 12rem;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    text-align: center;
+  }
+
+  .title-md {
+    color: var(--gray-600);
+    margin-block: .8rem .8rem;
+  }
+
+  header .text-md{
+    color: var(--gray-500);
+    margin-bottom: 4.8rem;
+  }
+
+  #cards{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  .card{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 8px;
+
+    background-color: var(--gray-300);
+
+    .contact{
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+
+      i{
+        color: var(--gray-400);
+      font-size: 28px;
+
+      }
+    }
+
+    i{
+      font-size: 20px;
+    }
+
+    p{
+      color: var(--gray-500);
+      margin-right: 3rem;
+    }
+  }
+}
+
