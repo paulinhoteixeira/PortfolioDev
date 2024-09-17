@@ -102,6 +102,12 @@
     align-items: center;
     padding: 1.2rem;
 
+    cursor: pointer;
+
+    &:hover{
+      border: 1.5px solid var(--gray-400);
+    }
+
     img {
       width: 306px;
       height: 156px;
@@ -119,6 +125,7 @@
     }
 
   }
+
 }
 
 #services {
@@ -209,6 +216,16 @@
     border-radius: 8px;
 
     background-color: var(--gray-300);
+
+    cursor: pointer;
+
+    &:hover{
+      border: 1.5px solid var(--blue);
+
+      .contact i{
+        color: var(--blue);
+      }
+    }
 
     .contact{
       display: flex;
